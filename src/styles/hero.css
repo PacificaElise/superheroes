@@ -1,0 +1,39 @@
+.hero-card {
+  width: 250px;
+  height: 300px;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 7px;
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/380275/paper-3.png")
+    repeat fixed center;
+}
+
+.hero-name {
+  padding: 0;
+  margin: 0;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.img-container {
+  margin: 0px 0px 20px 0px;
+  padding: 0px 0px 50% 0px;
+  overflow: hidden;
+  position: relative;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 80%;
+}
+
+.hero-desc {
+  margin-top: 10px;
+  font-size: 14px;
+}
